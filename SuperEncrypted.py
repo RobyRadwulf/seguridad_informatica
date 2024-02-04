@@ -27,7 +27,7 @@ with open('encrypted_key.txt', 'wb') as key_file:
 
 # Encrypt the message using the key
 cipher_suite = Fernet(key)
-cipher_text = cipher_suite.encrypt(b"This is an encrypted Message!")
+cipher_text = cipher_suite.encrypt(b"This is an encrypted Message for the class: seguridad informatica")
 
 # Save the encrypted message to a file
 with open('encrypted_message.txt', 'wb') as encrypted_file:
